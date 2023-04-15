@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  color: green;
+}
+
+#loading , #error , #success {
+  display: none;
+}
+#error {
+  color: red;
+}
